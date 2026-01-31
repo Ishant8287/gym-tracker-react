@@ -4,18 +4,13 @@ import { useState, useEffect } from "react";
 
 // 1. Initial Data ko bahar rakho taaki reset ke waqt repetition na ho
 const initialData = [
-  { id: 1, day: "Monday", exercises: [], bodyPartTarget: "Chest & Shoulder" },
-  { id: 2, day: "Tuesday", exercises: [], bodyPartTarget: "Back & Bicep" },
-  { id: 3, day: "Wednesday", exercises: [], bodyPartTarget: "Leg & Core" },
-  { id: 4, day: "Thursday", exercises: [], bodyPartTarget: "Chest & Triceps" },
-  { id: 5, day: "Friday", exercises: [], bodyPartTarget: "Shoulder & Arms" },
-  {
-    id: 6,
-    day: "Saturday",
-    exercises: [],
-    bodyPartTarget: "Cardio & BodyWeight",
-  },
-  { id: 7, day: "Sunday", exercises: [], bodyPartTarget: "Rest & Recovery" },
+  { id: 1, day: "Monday", exercises: [] },
+  { id: 2, day: "Tuesday", exercises: [] },
+  { id: 3, day: "Wednesday", exercises: [] },
+  { id: 4, day: "Thursday", exercises: [] },
+  { id: 5, day: "Friday", exercises: [] },
+  { id: 6, day: "Saturday", exercises: [] },
+  { id: 7, day: "Sunday", exercises: [] },
 ];
 
 function App() {

@@ -1,6 +1,5 @@
 const Header = ({ totalCount }) => {
   return (
-    // md:flex-row desktop ke liye, flex-col mobile ke liye
     <div className="min-h-[10vh] w-full flex flex-col md:flex-row justify-between items-center mb-8 gap-6 md:gap-0">
       <div className="text-center md:text-left">
         <h1 className="text-emerald-400 font-extrabold text-3xl md:text-4xl tracking-tighter">
