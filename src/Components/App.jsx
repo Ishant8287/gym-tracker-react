@@ -2,7 +2,6 @@ import Header from "./Header";
 import Section1 from "./Section1";
 import { useState, useEffect } from "react";
 
-// 1. Initial Data ko bahar rakho taaki reset ke waqt repetition na ho
 const initialData = [
   { id: 1, day: "Monday", exercises: [] },
   { id: 2, day: "Tuesday", exercises: [] },
@@ -64,12 +63,11 @@ function App() {
     if (
       window.confirm("Bhai, kya sach mein poore hafte ka data saaf karna hai?")
     ) {
-      setWorkouts(initialData); // Seedha variable use kiya
+      setWorkouts(initialData);
     }
   };
 
   return (
-    // Responsive Padding: Mobile pe px-4, Laptop pe px-10
     <div className="min-h-screen w-full bg-zinc-950 px-4 md:px-10 py-5 font-sans transition-all">
       <Header totalCount={totalExercisesCount} />
       <Section1

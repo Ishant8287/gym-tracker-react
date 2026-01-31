@@ -1,6 +1,5 @@
 const DayCard = ({ dayId, days, exercises, deleteExercise }) => {
   return (
-    // Fixed width [18vw] hataya, md:min-h-[40vh] laptop ke liye rakha
     <div className="min-h-[35vh] md:h-[40vh] w-full bg-zinc-900 border border-zinc-800 rounded-3xl p-5 flex flex-col shadow-lg hover:border-blue-500/50 transition-all">
       {/* Card Header */}
       <div className="flex justify-between items-center mb-4">
@@ -8,7 +7,6 @@ const DayCard = ({ dayId, days, exercises, deleteExercise }) => {
         <span className="h-2 w-2 bg-blue-500 rounded-full shadow-[0_0_8px_#3b82f6]"></span>
       </div>
 
-      {/* Exercise List (Body) */}
       <div className="flex-1 overflow-y-auto space-y-3 pr-2 scrollbar-thin scrollbar-thumb-zinc-700 custom-scrollbar">
         {exercises.length > 0 ? (
           exercises.map((ex, i) => (

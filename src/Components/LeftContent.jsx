@@ -19,7 +19,6 @@ const LeftContent = ({ addWorkoutToState, totalVolume, resetWorkouts }) => {
   };
 
   return (
-    // md:w-1/4 for desktop, w-full for mobile
     <div className="w-full md:w-1/4 min-h-fit md:h-full flex flex-col items-center justify-center py-10 md:py-0 gap-6 md:gap-10 border-b md:border-b-0 md:border-r border-zinc-800">
       <div className="flex flex-col gap-4 w-[85%] md:w-[14vw]">
         <select
@@ -50,7 +49,6 @@ const LeftContent = ({ addWorkoutToState, totalVolume, resetWorkouts }) => {
           onChange={(e) => setForm({ ...form, exercise: e.target.value })}
         />
 
-        {/* Compact numeric inputs for mobile */}
         <div className="grid grid-cols-3 gap-2">
           <input
             className="w-full px-2 py-3 bg-zinc-900 text-white rounded-xl border border-zinc-700 text-center outline-none focus:border-blue-500"
