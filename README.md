@@ -20,17 +20,6 @@ Built this project while completing a **70-problem LeetCode challenge** to bridg
 - **Persistent Storage**: Data stays even after page refresh.
 - **Weekly Reset**: One-click clear for a fresh week start.
 
-## 🧠 Logic Spotlight: Handling Nested State
-Instead of simple state updates, I implemented a `.map()` based approach to update specific exercises within a specific day, ensuring high performance and zero data loss.
+## Expanding the ESLint configuration
 
-```javascript
-// Example of the update logic used
-const addWorkoutToState = (newExerciseData) => {
-  setWorkouts((prev) =>
-    prev.map((day) =>
-      day.day === newExerciseData.day
-        ? { ...day, exercises: [...day.exercises, newExerciseData] }
-        : day
-    )
-  );
-};
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
