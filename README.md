@@ -1,25 +1,52 @@
-# 🏋️‍♂️ Pro-Gym Tracker | Logic-Driven React App
+# Gym Tracker 💪
 
-A performance-focused fitness tracking application built to manage weekly workout routines, calculate lifting volume, and maintain data persistence.
+A simple **React-based Gym Workout Tracker** that helps track weekly workouts.
+Users can add exercises, track sets/reps/weight, and manage their weekly workout routine.
 
+---
 
+## Features
 
-## 🚀 The "Why" Behind This Project
-Built this project while completing a **70-problem LeetCode challenge** to bridge the gap between Data Structures & Algorithms (DSA) and real-world Frontend engineering. 
+* Add workout exercises
+* Edit workouts
+* Delete workouts
+* Weekly workout tracking
+* Total exercises counter
+* Weekly volume calculation
+* Responsive design
 
-## 🛠️ Tech Stack & Concepts
-- **React.js**: Functional components with Hooks.
-- **Tailwind CSS**: Mobile-first responsive design.
-- **State Management**: Complex nested state updates for weekly data.
-- **Data Persistence**: LocalStorage integration to save progress.
+---
 
-## ✨ Key Features
-- **Smart Tracking**: Add exercises with Sets, Reps, and Weight.
-- **Volume Analytics**: Real-time calculation of total weight lifted (Sets × Reps × Weight).
-- **Responsive UI**: Fully optimized for Mobile, Tablet, and Desktop.
-- **Persistent Storage**: Data stays even after page refresh.
-- **Weekly Reset**: One-click clear for a fresh week start.
+## Tech Stack
 
-## Expanding the ESLint configuration
+* React
+* JavaScript
+* CSS
+* useState
+* useEffect
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+Clone the repository
+
+```
+git clone https://github.com/Ishant8287/gym-tracker.git
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Run the project
+
+```
+npm run dev
+```
+
+---
+
+## Author
+
+Ishant Singh
