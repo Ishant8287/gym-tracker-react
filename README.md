@@ -27,7 +27,7 @@ Gym Tracker is built to help users maintain consistency in their workouts by pro
 
 Track exercises, sets, reps, and weekly progress in a clean interface
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/Dashboard.png)
 
 ---
 
